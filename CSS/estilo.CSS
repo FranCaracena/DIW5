@@ -1,0 +1,83 @@
+/* text primary: #c96e00 text secondary:  menus: backgrounds: #c96f0046 */
+
+#lista{
+    margin: 20px;
+}
+
+#inicio{
+    margin-bottom: 0px;
+    background-color: #c96f0046;
+}
+
+#navega{
+    background-color: #c96f00;
+}
+
+.sociales{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.trofeos{
+   margin:auto;
+}
+
+dt{
+    text-align: right;
+}
+
+.controles{
+    color: #c96e00;
+    background-color: #c96f0046;
+}
+
+a{
+    color: #c96e00;
+}
+
+
+a:hover{
+    color: #e98102;
+}
+
+hr{
+    background-color: #c96f0046;
+}
+
+.h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-color: #c96f00;
+}
+
+.h4{
+    opacity: 0.5;
+}
+
+.experiencia{
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 40px;
+    
+}
+
+.fecha{
+    color: #c96e00;
+}
+
+@media (max-width: 768px) { 
+    dt{
+        text-align: left;
+    }
+    .experiencia{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .trofeos{
+        width: 100%;
+     }
+}
+
+ 
