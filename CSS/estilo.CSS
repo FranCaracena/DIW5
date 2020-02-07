@@ -66,6 +66,29 @@ hr{
     color: #c96e00;
 }
 
+.leyenda{
+    background:linear-gradient(to right, #c96f0000, #c96f0098, #c96f0000);
+    background-position: 50% 100%;
+}
+
+.badge-pill{
+    color: white;
+    background-color: #c96f00cb;
+}
+
+.enviar{
+    color: white;
+    background-color: #c96e00;
+}
+
+footer{
+    background-color: #c96f0046;
+    text-align: center;
+    margin-top: 15px;
+    height: 60px;
+    color: #c96e00;
+}
+
 @media (max-width: 768px) { 
     dt{
         text-align: left;

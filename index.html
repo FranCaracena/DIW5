@@ -30,8 +30,8 @@
           <li class="nav-item"><a href="#cualidades" class="nav-link">Cualidades</a></li>
           <li class="nav-item"><a href="#curriculum" class="nav-link">Curriculum</a></li>
           <li class="nav-item"><a href="#premios" class="nav-link">Premios</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Aptitudes</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a href="#aptitudes" class="nav-link">Aptitudes</a></li>
+          <li class="nav-item"><a href="#formulario" class="nav-link">Contacto</a></li>
         </ul>
         </div>
       </nav>
@@ -160,7 +160,42 @@
 
     <div id="aptitudes">
       <p class="h2 text-center">Aptitudes</p>
+      <div class="row">
+        <span class="col-2">&nbsp;</span>
+        <span class="badge badge-pill col-sm-2">Planificación</span>
+        <span class="col-1">&nbsp;</span>
+        <span class="badge badge-pill col-sm-2">Diseño</span>
+        <span class="col-1">&nbsp;</span>
+        <span class="badge badge-pill col-sm-2">Desarrollo</span>
+        <span class="col-2">&nbsp;</span>
+      </div>
     </div>
+
+    <hr class="col-xs-12">
+
+    <form id="formulario">
+      <div class="form-group row">
+        <label for="nombre" class="form-control-label col-sm-2">Nombre</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="nombre">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-sm-2">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="mensaje" class="form-control-label col-sm-2">Mensaje</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="mensaje">
+        </div>
+      </div>
+      <div class="col text-center mt-4">
+        <button class="btn enviar" type="submit">Enviar</button>
+      </div>
+    </form>
 
 </div>
     <!-- Optional JavaScript -->
@@ -169,4 +204,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
+  <footer>
+    <p><br/>&copy;Francisco Jose Caracena 2020</p>
+  </footer>
+
 </html>
