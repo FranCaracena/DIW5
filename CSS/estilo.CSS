@@ -81,6 +81,11 @@ hr{
     background-color: #c96e00;
 }
 
+.anclas{
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
 footer{
     background-color: #c96f0046;
     text-align: center;
